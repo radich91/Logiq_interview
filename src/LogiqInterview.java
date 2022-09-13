@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class LogiqInterview {
 
     public static void main(String[] args) {
-        boolean useAdvanced = true;
+        boolean useAdvanced = false;
         if (args.length > 0) {
             useAdvanced = args[0].equals("advanced");
         }
